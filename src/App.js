@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./components/Header";
+import "bootstrap/dist/css/bootstrap.css";
+import Searchbar from "./components/Searchbar";
+import Card from "./components/Card";
+import { data } from "./mockdata/Mockdata";
+import { useEffect, useState } from "react";
 
-function App() {
+const App = () => {
+  const [fdta, setFdata] = useState(data);
+  const [copydata, setCopydata] = useState([]);
+
+  useEffect(() => {
+    setTimeout(()=>{
+
+       setCopydata(data);
+    },3000)
+    
+    
+  },[]);
+
+  console.log(copydata);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Searchbar data={data} />
+      {/* {copydata && copydata.length ? <Card data={data} /> : "empty"} */}
+    </>
   );
-}
+};
 
 export default App;

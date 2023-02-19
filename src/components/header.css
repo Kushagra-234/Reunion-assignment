@@ -1,0 +1,54 @@
+body{
+  font-family: 'Nunito', sans-serif;
+  background-color: white;
+/* font-family: 'Poppins', sans-serif; */
+
+}
+
+.navbar{
+    border-bottom: 1px solid transparent;
+    box-shadow: 1px 1px 5px rgb(213, 213, 213);
+
+}
+
+.icon{
+    margin-left: 10px;
+    width: 40px;
+    height: 37px;
+    color: blueviolet;
+}
+
+.btn1{
+    background-color: white !important;
+    color:blueviolet !important;
+}
+
+.btn:hover{
+    background-color: blue !important;
+    color: black !important;
+}
+
+.btn2{
+    background-color:blueviolet !important;
+    color: white;
+}
+
+.navitem:hover{
+  background-color: rgb(240, 234, 234) !important;
+  color: blueviolet !important;
+  border: 0px solid ;
+}
+
+.icontext{
+    font-weight: bolder;
+    
+}
+
+ @media (max-width:800px){
+    .btn1{
+        display: none !important;
+    }
+    .btn2{
+        display: none !important;
+    }
+} 

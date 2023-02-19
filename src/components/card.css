@@ -1,0 +1,71 @@
+/* *{
+    margin:0px !important;
+    padding:0px !important;
+    box-sizing: border-box !important;
+} */
+
+.currency{
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+}
+.img{
+    width: 350px !important;
+    height: 200px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    position: relative;
+}
+
+
+.content{
+    position: absolute;
+    top:440px;
+    color: white;
+    width: 90px;
+    background-color: blueviolet;
+}
+.cardcontainer{
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 5px rgb(216, 213, 213);
+    width: 350px;
+    
+}
+
+.month{
+    color: grey;
+    font-size: 12px;
+}
+
+
+.name{
+    font-weight: bolder;
+    font-size: 25px;
+
+}
+
+.address{
+    color: grey;
+    /* border: 1px solid transparent;    */
+    /* box-shadow: 0px 0px 5px rgb(216, 213, 213);   */
+    /* padding-right: 0px !important; */
+     border-bottom: 1px solid transparent;
+     box-shadow: 0px 1px 0px rgb(213, 213, 213);
+}
+
+.accesories{
+    font-size: 10px;
+    color: gray;
+    /* width: 100px; */
+}
+
+.hearticon{
+    color: blueviolet;
+}
+
+.bedicon{
+    width: 35px;
+    height: 14px;
+    color: blueviolet;
+   /* padding-left: 0px;     */
+}
